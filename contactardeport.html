@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactar</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link href="css/estilos.css" rel="stylesheet">
+    <style>
+        body{
+            background-image: url(img/fondoeje.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contactar Entrenador</h1>
+    </header>
+
+    <nav>
+        <a href="paginadeportes.html">Inicio</a>
+        <a href="rutinas.html">Rutinas</a>
+        <a href="#">Contactar Entrenador</a>
+    </nav>
+
+    
+    <h2 class="lt">Hola Bienvenido, siguieres contactar un entrenador llena este formulario: </h2>
+
+
+    <form class="form-container">
+        <label for="name" class="form-label">Nombre:</label>
+        <input type="text" id="name" class="form-input" required>
+      
+        <label for="email" class="form-label">Correo electrónico:</label>
+        <input type="email" id="email" class="form-input" required>
+      
+        <label for="message" class="form-label">Mensaje:</label>
+        <textarea id="message" class="form-input" rows="4" required></textarea>
+      
+        <button type="submit" class="form-button">Enviar</button>
+      </form>
+
+
+
+<footer>
+    <p class="footer">Todos los derechos reservados. Nicolas Tarazona Freelancer</p>
+</footer>
+</body>
+</html>
